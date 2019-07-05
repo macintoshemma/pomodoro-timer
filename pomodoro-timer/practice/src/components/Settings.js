@@ -6,7 +6,6 @@ class Settings extends Component {
     return (
       <div className="settings">
         <p>
-          <Timer random={randoNum}/>
           Settings - Fill content later
         </p>
       </div>
@@ -15,13 +14,3 @@ class Settings extends Component {
 }
 
 export default Settings;
-class Timer extends Component {
-  render() {
-    return(
-      <div whatevs={this.props.vadsom}>
-        <p randomNum={this.props.random}></p>
-      </div>
-    )
-  }
-
-}
